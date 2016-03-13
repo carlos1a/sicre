@@ -49,7 +49,7 @@
 			</div>
 
 		    	<div class="col-md-12">
-		    		<div class="footer-copyright"><p class="text-danger">copyright © 2015 design: <a href="http://www.regaze.com.ve" class="text-muted col-md-12" align="center"> regaze.com.ve</a></p></div>
+		    		<div class="footer-copyright"><p class="text-danger">copyright © 2015 design: <a href="http://www.regaze.com.ve" class="text-muted col-md-12" align="center"> Regaze.com.ve</a></p></div>
 
 		    	</div>
 		    	</div>
