@@ -104,6 +104,37 @@ require_once("../../controlador/inventario/con_consultar_serial.php");
                     </div>
                     </div>
 
+                    <!-- PRUEBA MODAL PARA EL FORMULARIO DE REGISTRO SI LA CEDULA NO EXISTE -->
+
+                        <div class="container">
+                          <h2>Registro de Nuevo Usuario</h2>
+                    <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Abrir</button>
+
+                    <!-- Modal -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                        <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Formulario de Registro</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Aqui va el formulario de registro.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+
+                        </div>
+                        </div>
+
+                        </div>
+                    <!-- FIN DE LA PRUEBA MODAL -->
+
 
              <input type="hidden" id="codigo" value="<?php echo $inv_cod;?>" name="codigo">
              <input type="hidden" value="<?php echo $_SESSION['usu_login']; ?>" name="usu_login">
@@ -135,7 +166,7 @@ require_once("../../controlador/inventario/con_consultar_serial.php");
 
 
       <tbody id="lista">
-        
+
 
 
                </tbody>
